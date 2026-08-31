@@ -11,8 +11,12 @@ Files" (URF), and the ASD-STE100 standard.
 - 1 = The skill obeys the criterion in part.
 - 0 = The skill does not obey the criterion.
 
-A skill passes when the total is 80% or more of the maximum, and no
-criterion in R1, R2, or R3 has a score of 0. If the skill does not pass,
+If the review material does not show the item of a criterion, write
+"N/A" for that criterion. Remove its 2 points from the maximum. Do not
+give points for absent material.
+
+A skill passes when the total is 80% or more of the applicable maximum,
+and no criterion in R1, R2, or R3 has a score of 0. If the skill does not pass,
 correct the criteria with the lowest scores first.
 
 ## The Rubrics
@@ -156,4 +160,5 @@ ASD-STE100.
 | R12 Reference files | | |
 | R13 STE language | | |
 
-Maximum: 26 points. Pass: 21 points or more, with no 0 in R1, R2, or R3.
+Maximum: 26 points, minus 2 for each N/A criterion. Pass: 80% or more
+of the applicable maximum, with no 0 in R1, R2, or R3.

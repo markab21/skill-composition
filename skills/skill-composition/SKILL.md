@@ -131,7 +131,10 @@ Deliver the full response in one message. Do not stop at an interim
 status. Write the report in the same language rules as the skill.
 
 When you review a skill, report each problem as: rubric ID, the text with
-the problem, a corrected version.
+the problem, a corrected version. If the source does not name a tool, a
+number, or a stack, mark the gap. Do not invent a name or a number to
+fill it. Write the corrected version with a placeholder, for example
+"<test tool>".
 
 ## Avoid
 
