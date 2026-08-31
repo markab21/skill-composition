@@ -1,9 +1,8 @@
 # Rubrics for Skill Quality
 
-This file gives the scoring rubrics for a skill. Score each criterion with
-0, 1, or 2 points. The sources are the Skills Directory documents "Writing
-Effective Skills" (WES), "Skill File Structure" (SFS), and "Using Reference
-Files" (URF).
+This file gives the scoring rubrics for a skill. The sources are the
+Skills Directory documents "Writing Effective Skills" (WES), "Skill File
+Structure" (SFS), and "Using Reference Files" (URF).
 
 ## How to Score
 
@@ -17,8 +16,6 @@ absent material.
 A skill passes when the total is 80% or more of the applicable maximum,
 and no criterion in R1, R2, or R3 has a score of 0. Correct the lowest
 scores first.
-
-## The Rubrics
 
 ### R1 — One job
 
@@ -156,7 +153,8 @@ untracked load path. Source: `placement.md` in this folder.
 
 A procedural skill reads its inputs before it acts, stops on a missing
 or conflicting input, and gates each action that the agent cannot
-reverse. Source: SKILL.md, "Alignment Before Action".
+reverse. For a descriptive skill with no actions, write "N/A". Source:
+SKILL.md, "Alignment Before Action".
 
 - 2: The first step reads the inputs. A gap stops the skill with a
   report. An action that the agent cannot reverse waits for the user.
@@ -164,8 +162,6 @@ reverse. Source: SKILL.md, "Alignment Before Action".
 - 1: The read step exists, but a gap rule, a gate, or a stop condition
   is missing.
 - 0: The skill acts before it reads, or it guesses missing values.
-
-For a descriptive skill with no actions, write "N/A".
 
 ### R16 — Family coherence
 
