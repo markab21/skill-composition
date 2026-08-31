@@ -142,6 +142,17 @@ only can/will/must as modals. Source: SKILL.md, "Language Rules".
 - 1: The text breaks one to three rules.
 - 0: The text breaks more than three rules.
 
+### R14 — Project placement
+
+The skill lives in the correct location for its origin. A project-owned
+skill lives in `skills/` and is tracked. A vendored skill lives in the
+untracked load path. Source: `placement.md` in this folder.
+
+- 2: Correct location, correct tracking, and the load-path link exists.
+- 1: Correct location, but the tracking or the link is wrong.
+- 0: A project-owned skill exists only in the untracked load path, or
+  git tracks a vendored skill.
+
 ## Score Sheet Template
 
 | Rubric | Score (0-2) | Note |
@@ -159,6 +170,7 @@ only can/will/must as modals. Source: SKILL.md, "Language Rules".
 | R11 Names and layout | | |
 | R12 Reference files | | |
 | R13 Language rules | | |
+| R14 Project placement | | |
 
-Maximum: 26 points, minus 2 for each N/A criterion. Pass: 80% or more
+Maximum: 28 points, minus 2 for each N/A criterion. Pass: 80% or more
 of the applicable maximum, with no 0 in R1, R2, or R3.

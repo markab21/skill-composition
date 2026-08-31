@@ -8,11 +8,13 @@ agent skills.
 The skill lives in `skills/skill-composition/`. It contains:
 
 - `SKILL.md` — the six-step process to write a skill.
-- `references/rubrics.md` — thirteen rubrics (R1-R13) that score a
+- `references/rubrics.md` — fourteen rubrics (R1-R14) that score a
   skill, with pass lines and an N/A rule.
 - `references/file-structure.md` — the folder layout, the file limits,
   and the naming rules.
 - `references/reference-files.md` — the rules for reference files.
+- `references/placement.md` — where skills live in a project: owned
+  skills in `skills/`, vendored skills in the untracked load path.
 - `README.md` — the usage notes for the skill itself.
 
 ## What the Skill Does
@@ -25,6 +27,8 @@ An agent with this skill can:
   the text with the problem, and a corrected version.
 - Score a skill against the rubrics and give a pass or fail result.
 - Split a skill that mixes more than one job.
+- Organize the skills of a project: owned skills in `skills/`, vendored
+  skills in the untracked load path, and a policy in AGENTS.md.
 
 ## Why You Use It
 

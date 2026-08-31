@@ -3,9 +3,10 @@ name: skill-composition
 description: >-
   Write, review, and score agent skills (SKILL.md packages). Use when you
   create a skill, improve a skill, review a skill, score a skill against
-  rubrics, split a large skill, write a skill description, or add reference
-  files. Covers skill scope, descriptions, file structure, progressive
-  disclosure, rubrics, and smoke tests.
+  rubrics, split a large skill, write a skill description, add reference
+  files, or organize the skills of a project. Covers skill scope,
+  descriptions, file structure, progressive disclosure, rubrics, smoke
+  tests, and project placement.
 ---
 
 # Skill Composition
@@ -44,6 +45,17 @@ Write all skill text with these rules:
 Models read "should" as optional. Write "must" for each requirement.
 Code, commands, identifiers, and quoted text are exact names. Do not change
 them. Each one counts as one word.
+
+## Where a Skill Lives
+
+- A skill that the project owns lives in `skills/<name>/`. Track it in git.
+- A skill installed from another repository lives in the load path of the
+  agent, for example `.agents/skills/`. Do not track the load path.
+- Link each project-owned skill into the load path. Edit only the copy in
+  `skills/`.
+- Record this policy in the AGENTS.md of the project.
+
+For the full rules and the move procedure, see `references/placement.md`.
 
 ## Step-by-Step Process
 
@@ -174,3 +186,5 @@ no words to match.
 - `references/rubrics.md` — the scoring rubrics for skill quality.
 - `references/file-structure.md` — the folder layout, file limits, and names.
 - `references/reference-files.md` — the rules for reference files.
+- `references/placement.md` — where skills live in a project, and the
+  move procedure for a misplaced skill.
