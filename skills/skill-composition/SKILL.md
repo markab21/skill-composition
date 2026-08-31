@@ -101,8 +101,13 @@ correct the skill. Then score the skill again.
 
 ### Step 6: Do a smoke test
 
+Do this step only when the user gives a test command or a test model.
+If no test command is available, deliver the skill with the rubric
+scores and stop.
+
 Test the skill with a small model. A small model shows the unclear
-instructions first. Do these tests:
+instructions first. Do each test one time, in sequence. Do not start
+parallel test agents. Do these tests:
 
 1. Give the model the skill text and one task in scope.
 2. Make sure that the output obeys the structure and the limits of the skill.
@@ -116,11 +121,14 @@ that instruction more specific. Then do the test again.
 
 ## Output Format
 
-When you write a skill, deliver:
+When you write a skill, deliver these items, in this sequence:
 
-- The skill folder with SKILL.md and its support files.
-- The rubric scores, one line for each criterion.
-- The smoke test results, one line for each test.
+1. The skill text, or the skill folder with SKILL.md and support files.
+2. The rubric scores, one line for each criterion.
+3. The smoke test results, one line for each test, when Step 6 ran.
+
+Deliver the full response in one message. Do not stop at an interim
+status. Write the report in the same language rules as the skill.
 
 When you review a skill, report each problem as: rubric ID, the text with
 the problem, a corrected version.
