@@ -3,6 +3,31 @@
 This file gives the rules for the `references/` folder of a skill.
 Source: Skills Directory, "Using Reference Files".
 
+## A Reference File or a New Skill
+
+A skill holds a job: triggers, steps, and an output format. A reference
+file holds knowledge that supports the steps of one skill.
+
+Ask one question: "Can a user ask for this content alone?"
+
+- Yes. Write a skill. Give it a description with triggers.
+- No. Write a reference file. The steps of the parent skill decide when
+  the agent reads it.
+
+Signs of a reference file:
+
+- The content is a lookup table, an example set, or edge-case detail.
+- The content has no output format of its own.
+- The content never runs first. A step of the parent points to it.
+
+Signs of a skill:
+
+- A user names the task directly.
+- The content has its own steps and its own deliverable.
+
+Do not split a skill to make it smaller. Move detail into reference
+files instead. Split a skill only when it holds a second job.
+
 ## Why Reference Files
 
 - The agent loads a reference file only when the task needs it. This

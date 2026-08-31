@@ -4,9 +4,10 @@ description: >-
   Write, review, and score agent skills (SKILL.md packages). Use when you
   create a skill, improve a skill, review a skill, score a skill against
   rubrics, split a large skill, write a skill description, add reference
-  files, or organize the skills of a project. Covers skill scope,
-  descriptions, file structure, progressive disclosure, rubrics, smoke
-  tests, and project placement.
+  files, organize the skills of a project, or audit every skill in a
+  project. Covers skill scope, descriptions, file structure, progressive
+  disclosure, rubrics, smoke tests, project placement, and project
+  audits.
 ---
 
 # Skill Composition
@@ -23,6 +24,8 @@ Use this skill when you:
 - Review or score a skill.
 - Split a skill that has more than one job.
 - Add reference files to a skill.
+- Audit every skill in a project. Read `references/project-audit.md`
+  first. It gives the five audit steps and the report format.
 
 Do not use this skill for prose that is not a skill. For general
 technical prose, use a documentation skill.
@@ -116,6 +119,12 @@ than 20 lines, do not give refactor suggestions."
 
 ### Step 4: Add reference files
 
+A skill holds a job. A reference file holds knowledge that supports the
+steps of one skill. Ask one question: "Can a user ask for this content
+alone?" If yes, write a skill. If no, write a reference file. Do not
+split a skill to make it smaller. Move detail into reference files
+instead. Split a skill only when it holds a second job.
+
 If SKILL.md has more than 500 lines, move content into `references/`.
 Obey these limits:
 
@@ -207,3 +216,5 @@ no words to match.
   move procedure for a misplaced skill.
 - `references/skill-families.md` — the rules for sibling skills: the
   router pattern, disjoint triggers, and shared steps.
+- `references/project-audit.md` — the five-step audit of every skill in
+  a project, and the report format.

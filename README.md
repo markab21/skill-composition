@@ -17,6 +17,8 @@ The skill lives in `skills/skill-composition/`. It contains:
   skills in `skills/`, vendored skills in the untracked load path.
 - `references/skill-families.md` — the rules for sibling skills: the
   router pattern, disjoint triggers, and one wording for shared steps.
+- `references/project-audit.md` — the five-step audit workflow for
+  every skill in a project.
 - `README.md` — the usage notes for the skill itself.
 
 ## What the Skill Does
@@ -31,6 +33,8 @@ An agent with this skill can:
 - Split a skill that mixes more than one job.
 - Organize the skills of a project: owned skills in `skills/`, vendored
   skills in the untracked load path, and a policy in AGENTS.md.
+- Audit every skill in a project and deliver one report with scores,
+  problems, and a correction plan.
 
 ## Why You Use It
 

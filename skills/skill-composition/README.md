@@ -17,6 +17,8 @@ This skill gives the agent:
   `references/placement.md`.
 - The rules for families of sibling skills. See
   `references/skill-families.md`.
+- The five-step project audit workflow. See
+  `references/project-audit.md`.
 
 The structural rules come from the Skills Directory documents "Writing
 Effective Skills", "Skill File Structure", and "Using Reference Files".
@@ -32,7 +34,8 @@ skills/skill-composition/
     ├── file-structure.md
     ├── reference-files.md
     ├── placement.md
-    └── skill-families.md
+    ├── skill-families.md
+    └── project-audit.md
 ```
 
 ## How to Use It
