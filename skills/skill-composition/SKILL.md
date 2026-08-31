@@ -64,6 +64,10 @@ The description must contain:
 - When to use the skill, as "Use when ...".
 - The trigger words of the domain, for example tool names and task names.
 
+Use narrow trigger words. A broad trigger, for example "pipeline", starts
+the skill on unrelated tasks. Describe only the scope that the user gave.
+Do not add file types, tools, or tasks that the user did not name.
+
 ### Step 3: Write the SKILL.md body
 
 Use this structure, in this sequence:
