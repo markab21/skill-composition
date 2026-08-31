@@ -33,10 +33,10 @@ well. A vague description never triggers. A vague instruction gives
 different output on each run. The rubrics in this skill catch each of
 these causes before you ship the skill.
 
-The skill text obeys ASD-STE100 Simplified Technical English (STE).
-STE gives short sentences, one word for one meaning, and no optional
-modals. Models read "should" as optional. STE writes "must". This
-makes the instructions hard to misread, for models and for people.
+The skill also sets language rules for the skills it writes: short
+sentences, imperative steps, one word for one meaning, and no optional
+modals. Models read "should" as optional. These rules write "must".
+This makes the instructions hard to misread, for models and for people.
 
 The structural rules come from the Skills Directory documents "Writing
 Effective Skills", "Skill File Structure", and "Using Reference Files".
@@ -51,12 +51,3 @@ npx skills add markab21/skill-composition
 
 Or copy `skills/skill-composition/` into the skills folder of your
 agent.
-
-## How It Was Tested
-
-The skill went through five test rounds against a small model (`dsh`,
-a qwen-backed DeepSeek harness). Each round gave the model the skill
-and one task: author a skill, refuse a mixed-scope request, review a
-bad skill, write a description, and author again. Each round exposed a
-gap. Each gap became a commit. The git history shows each round and
-its correction.

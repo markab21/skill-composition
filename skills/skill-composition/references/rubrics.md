@@ -3,7 +3,7 @@
 This file gives the scoring rubrics for a skill. Score each criterion with
 0, 1, or 2 points. The sources are the Skills Directory documents "Writing
 Effective Skills" (WES), "Skill File Structure" (SFS), and "Using Reference
-Files" (URF), and the ASD-STE100 standard.
+Files" (URF).
 
 ## How to Score
 
@@ -132,13 +132,13 @@ pointer from SKILL.md. Source: URF, "Best Practices".
 - 1: One file breaks one rule.
 - 0: Reference files mix topics or have no pointers.
 
-### R13 — STE language
+### R13 — Language rules
 
-The skill text obeys STE: imperative steps, 20/25-word sentence limits,
-one word for one meaning, only can/will/must as modals. Source:
-ASD-STE100.
+The skill text obeys the "Language Rules" section of the parent skill:
+imperative steps, 20/25-word sentence limits, one word for one meaning,
+only can/will/must as modals. Source: SKILL.md, "Language Rules".
 
-- 2: The text obeys all listed STE rules.
+- 2: The text obeys all listed language rules.
 - 1: The text breaks one to three rules.
 - 0: The text breaks more than three rules.
 
@@ -158,7 +158,7 @@ ASD-STE100.
 | R10 Named context | | |
 | R11 Names and layout | | |
 | R12 Reference files | | |
-| R13 STE language | | |
+| R13 Language rules | | |
 
 Maximum: 26 points, minus 2 for each N/A criterion. Pass: 80% or more
 of the applicable maximum, with no 0 in R1, R2, or R3.

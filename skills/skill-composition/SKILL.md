@@ -11,9 +11,8 @@ description: >-
 # Skill Composition
 
 This skill tells you how to write an effective agent skill. A skill is a
-folder with a SKILL.md file and optional support files. The rules come from
-the Skills Directory documentation and from ASD-STE100 Simplified Technical
-English (STE).
+folder with a SKILL.md file and optional support files. The structural
+rules come from the Skills Directory documentation.
 
 ## When to Use This Skill
 
@@ -24,12 +23,12 @@ Use this skill when you:
 - Split a skill that has more than one job.
 - Add reference files to a skill.
 
-Do not use this skill for prose that is not a skill. For general technical
-prose, use an STE writing skill.
+Do not use this skill for prose that is not a skill. For general
+technical prose, use a documentation skill.
 
 ## Language Rules
 
-Write all skill text in STE:
+Write all skill text with these rules:
 
 - Write each instruction in the imperative: "Run the test."
 - Write a maximum of 20 words in each instruction sentence.

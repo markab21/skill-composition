@@ -14,10 +14,8 @@ This skill gives the agent:
 - The folder layout and file limits. See `references/file-structure.md`.
 - The rules for reference files. See `references/reference-files.md`.
 
-The content comes from the Skills Directory documents "Writing Effective
-Skills", "Skill File Structure", and "Using Reference Files". The
-language rules come from ASD-STE100 Simplified Technical English (STE).
-All text in this skill obeys STE.
+The structural rules come from the Skills Directory documents "Writing
+Effective Skills", "Skill File Structure", and "Using Reference Files".
 
 ## Layout
 
@@ -40,11 +38,9 @@ skills/skill-composition/
 ## How to Test It
 
 Test the skill with a small model. A small model shows unclear
-instructions first. This project uses the `dsh` command:
+instructions first.
 
-```
-dsh --profile headless "<SKILL.md text> Task: <an authoring task>"
-```
-
-Score the output against `references/rubrics.md`. If the output breaks a
-rubric, make the related instruction more specific. Then test again.
+1. Give the model the SKILL.md text and one authoring task.
+2. Score the output against `references/rubrics.md`.
+3. If the output breaks a rubric, make the related instruction more
+   specific. Then test again.
