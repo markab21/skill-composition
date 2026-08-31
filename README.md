@@ -55,3 +55,7 @@ npx skills add markab21/skill-composition
 
 Or copy `skills/skill-composition/` into the skills folder of your
 agent.
+
+## License
+
+MIT. See the `LICENSE` file.
