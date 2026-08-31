@@ -15,6 +15,8 @@ The skill lives in `skills/skill-composition/`. It contains:
 - `references/reference-files.md` — the rules for reference files.
 - `references/placement.md` — where skills live in a project: owned
   skills in `skills/`, vendored skills in the untracked load path.
+- `references/skill-families.md` — the rules for sibling skills: the
+  router pattern, disjoint triggers, and one wording for shared steps.
 - `README.md` — the usage notes for the skill itself.
 
 ## What the Skill Does

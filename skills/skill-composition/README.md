@@ -15,6 +15,8 @@ This skill gives the agent:
 - The rules for reference files. See `references/reference-files.md`.
 - The placement rules for project and vendored skills. See
   `references/placement.md`.
+- The rules for families of sibling skills. See
+  `references/skill-families.md`.
 
 The structural rules come from the Skills Directory documents "Writing
 Effective Skills", "Skill File Structure", and "Using Reference Files".

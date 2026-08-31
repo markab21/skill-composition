@@ -7,17 +7,16 @@ Files" (URF).
 
 ## How to Score
 
-- 2 = The skill obeys the criterion fully.
-- 1 = The skill obeys the criterion in part.
-- 0 = The skill does not obey the criterion.
+A score of 2 means full obedience. A score of 1 means partial
+obedience. A score of 0 means no obedience.
 
 If the review material does not show the item of a criterion, write
-"N/A" for that criterion. Remove its 2 points from the maximum. Do not
-give points for absent material.
+"N/A". Remove its 2 points from the maximum. Do not give points for
+absent material.
 
 A skill passes when the total is 80% or more of the applicable maximum,
-and no criterion in R1, R2, or R3 has a score of 0. If the skill does not pass,
-correct the criteria with the lowest scores first.
+and no criterion in R1, R2, or R3 has a score of 0. Correct the lowest
+scores first.
 
 ## The Rubrics
 
