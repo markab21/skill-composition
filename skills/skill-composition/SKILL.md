@@ -77,6 +77,10 @@ that you write, put the alignment work before the action work:
 Write one sentence: "This skill does X." If the sentence needs "and", split
 the work into two skills. One skill does one job.
 
+If a split makes two or more sibling skills in one domain, read
+`references/skill-families.md`. It gives the router pattern, the
+disjoint-trigger rule, and the shared-step rule.
+
 ### Step 2: Write the description
 
 The agent finds a skill through a semantic match with its description.
@@ -201,3 +205,5 @@ no words to match.
 - `references/reference-files.md` — the rules for reference files.
 - `references/placement.md` — where skills live in a project, and the
   move procedure for a misplaced skill.
+- `references/skill-families.md` — the rules for sibling skills: the
+  router pattern, disjoint triggers, and shared steps.

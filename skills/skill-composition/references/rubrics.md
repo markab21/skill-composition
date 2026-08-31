@@ -168,6 +168,18 @@ reverse. Source: SKILL.md, "Alignment Before Action".
 
 For a descriptive skill with no actions, write "N/A".
 
+### R16 — Family coherence
+
+When sibling skills divide one domain, the family obeys the rules in
+`skill-families.md`: a router with a selection table, disjoint trigger
+words, one exact wording for each shared step, and no skill folder
+without a SKILL.md file. For a standalone skill, write "N/A". Source:
+`skill-families.md` in this folder.
+
+- 2: The family obeys all four rules.
+- 1: One rule breaks, for example one shared trigger word.
+- 0: Two or more rules break, or two siblings claim the same task.
+
 ## Score Sheet Template
 
 | Rubric | Score (0-2) | Note |
@@ -187,6 +199,7 @@ For a descriptive skill with no actions, write "N/A".
 | R13 Language rules | | |
 | R14 Project placement | | |
 | R15 Alignment before action | | |
+| R16 Family coherence | | |
 
-Maximum: 30 points, minus 2 for each N/A criterion. Pass: 80% or more
+Maximum: 32 points, minus 2 for each N/A criterion. Pass: 80% or more
 of the applicable maximum, with no 0 in R1, R2, or R3.
