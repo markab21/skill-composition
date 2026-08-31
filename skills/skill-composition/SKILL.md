@@ -39,6 +39,8 @@ Write all skill text in STE:
 - Use only these modal verbs: can, will, must.
 - Do not use: should, would, may, might, could.
 - Do not use contractions or semicolons.
+- Write "the section that follows", not "the section below" or "above".
+- Write "for example", not "such as", "e.g.", or "etc.".
 
 Models read "should" as optional. Write "must" for each requirement.
 Code, commands, identifiers, and quoted text are exact names. Do not change
@@ -75,6 +77,10 @@ Use this structure, in this sequence:
 Write specific instructions with limits and names. Write "Functions must
 have fewer than 50 lines", not "write clean code". Name the stack, the
 tools, and the file paths. Do not assume that the model knows them.
+
+Add a checklist for each task where the model must not miss items.
+Give each special case an explicit rule. Example: "If the file has fewer
+than 20 lines, do not give refactor suggestions."
 
 ### Step 4: Add reference files
 
