@@ -153,6 +153,21 @@ untracked load path. Source: `placement.md` in this folder.
 - 0: A project-owned skill exists only in the untracked load path, or
   git tracks a vendored skill.
 
+### R15 — Alignment before action
+
+A procedural skill reads its inputs before it acts, stops on a missing
+or conflicting input, and gates each action that the agent cannot
+reverse. Source: SKILL.md, "Alignment Before Action".
+
+- 2: The first step reads the inputs. A gap stops the skill with a
+  report. An action that the agent cannot reverse waits for the user.
+  Each loop has a stop condition.
+- 1: The read step exists, but a gap rule, a gate, or a stop condition
+  is missing.
+- 0: The skill acts before it reads, or it guesses missing values.
+
+For a descriptive skill with no actions, write "N/A".
+
 ## Score Sheet Template
 
 | Rubric | Score (0-2) | Note |
@@ -171,6 +186,7 @@ untracked load path. Source: `placement.md` in this folder.
 | R12 Reference files | | |
 | R13 Language rules | | |
 | R14 Project placement | | |
+| R15 Alignment before action | | |
 
-Maximum: 28 points, minus 2 for each N/A criterion. Pass: 80% or more
+Maximum: 30 points, minus 2 for each N/A criterion. Pass: 80% or more
 of the applicable maximum, with no 0 in R1, R2, or R3.

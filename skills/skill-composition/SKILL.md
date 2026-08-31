@@ -57,6 +57,19 @@ them. Each one counts as one word.
 
 For the full rules and the move procedure, see `references/placement.md`.
 
+## Alignment Before Action
+
+A skill directs an agent that acts on its own. In each procedural skill
+that you write, put the alignment work before the action work:
+
+- Make the first step a read step. The skill must read its inputs before
+  it changes anything.
+- If a required input is missing or in conflict, the skill must stop and
+  report the gap. It must not guess a value.
+- Before an action that the agent cannot reverse, the skill must show the
+  plan and wait for the user's answer.
+- Give each loop a stop condition, for example a count or a pass state.
+
 ## Step-by-Step Process
 
 ### Step 1: Define one job

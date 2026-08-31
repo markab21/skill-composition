@@ -9,7 +9,7 @@ A skill is a folder with a SKILL.md file and optional support files.
 This skill gives the agent:
 
 - A six-step process to write a skill.
-- Fourteen rubrics (R1-R14) to score a skill. See
+- Fifteen rubrics (R1-R15) to score a skill. See
   `references/rubrics.md`.
 - The folder layout and file limits. See `references/file-structure.md`.
 - The rules for reference files. See `references/reference-files.md`.

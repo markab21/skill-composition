@@ -8,7 +8,7 @@ agent skills.
 The skill lives in `skills/skill-composition/`. It contains:
 
 - `SKILL.md` — the six-step process to write a skill.
-- `references/rubrics.md` — fourteen rubrics (R1-R14) that score a
+- `references/rubrics.md` — fifteen rubrics (R1-R15) that score a
   skill, with pass lines and an N/A rule.
 - `references/file-structure.md` — the folder layout, the file limits,
   and the naming rules.
